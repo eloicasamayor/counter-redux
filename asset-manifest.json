@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eloicasamayor/counter-redux/static/css/main.f857cf83.css",
+    "main.js": "/eloicasamayor/counter-redux/static/js/main.26523c08.js",
+    "static/js/787.2d4f8240.chunk.js": "/eloicasamayor/counter-redux/static/js/787.2d4f8240.chunk.js",
+    "index.html": "/eloicasamayor/counter-redux/index.html",
+    "main.f857cf83.css.map": "/eloicasamayor/counter-redux/static/css/main.f857cf83.css.map",
+    "main.26523c08.js.map": "/eloicasamayor/counter-redux/static/js/main.26523c08.js.map",
+    "787.2d4f8240.chunk.js.map": "/eloicasamayor/counter-redux/static/js/787.2d4f8240.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f857cf83.css",
+    "static/js/main.26523c08.js"
+  ]
+}
