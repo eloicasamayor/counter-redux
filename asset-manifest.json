@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/eloicasamayor/counter-redux/static/css/main.f857cf83.css",
-    "main.js": "/eloicasamayor/counter-redux/static/js/main.26523c08.js",
-    "static/js/787.2d4f8240.chunk.js": "/eloicasamayor/counter-redux/static/js/787.2d4f8240.chunk.js",
-    "index.html": "/eloicasamayor/counter-redux/index.html",
-    "main.f857cf83.css.map": "/eloicasamayor/counter-redux/static/css/main.f857cf83.css.map",
-    "main.26523c08.js.map": "/eloicasamayor/counter-redux/static/js/main.26523c08.js.map",
-    "787.2d4f8240.chunk.js.map": "/eloicasamayor/counter-redux/static/js/787.2d4f8240.chunk.js.map"
+    "main.css": "/eloicasamayor.github.io/counter-redux/static/css/main.f857cf83.css",
+    "main.js": "/eloicasamayor.github.io/counter-redux/static/js/main.7cc434a8.js",
+    "static/js/787.2d4f8240.chunk.js": "/eloicasamayor.github.io/counter-redux/static/js/787.2d4f8240.chunk.js",
+    "index.html": "/eloicasamayor.github.io/counter-redux/index.html",
+    "main.f857cf83.css.map": "/eloicasamayor.github.io/counter-redux/static/css/main.f857cf83.css.map",
+    "main.7cc434a8.js.map": "/eloicasamayor.github.io/counter-redux/static/js/main.7cc434a8.js.map",
+    "787.2d4f8240.chunk.js.map": "/eloicasamayor.github.io/counter-redux/static/js/787.2d4f8240.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f857cf83.css",
-    "static/js/main.26523c08.js"
+    "static/js/main.7cc434a8.js"
   ]
 }
