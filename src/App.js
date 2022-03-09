@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Provider } from "react-redux";
+import { store } from "./store";
+import { ListCounters } from "./counters";
+import { ToggleRedux } from "./toggle/ToggleRedux";
+import { AllReduxJson } from "./allJsonRedux/AllReduxJson";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Learning redux</h1>
+      <div className="app">
+        <Provider store={store}>
+          <div className="all-states">
+            <ListCounters />
+            <ToggleRedux />
+          </div>
+          <AllReduxJson />
+        </Provider>
+      </div>
+    </>
   );
 }
-
-export default App;
