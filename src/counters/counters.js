@@ -1,4 +1,3 @@
-import { act } from "react-dom/test-utils";
 import { combineReducers } from "redux";
 const INCREMENT = "counter/INCREMENT";
 export function increment(id, amount) {
@@ -20,6 +19,7 @@ export function byId(state = {}, action) {
   switch (action.type) {
     case CREATE_COUNTER: {
       const copy = { ...state };
+
       copy[action.id] = { id: action.id, count: 0 };
       return copy;
     }

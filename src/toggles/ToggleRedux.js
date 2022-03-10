@@ -1,33 +1,33 @@
 import { useDispatch, useSelector } from "react-redux";
-import { toggle, getActivat, toggleActive, off, on } from "./toggle";
+import { byId, getActivat, toggleActive, off, on } from "./toggles";
 
-export function ToggleRedux() {
+export function ToggleRedux({ id }) {
   const dispatch = useDispatch();
-  const activat = useSelector(getActivat);
+  const activat = useSelector((state) => getActivat(state, { id }));
   return (
-    <div className="toggle">
-      <h2>toggle</h2>
+    <div className={"toggle " + (activat.value ? "on" : "off")}>
+      <h2>{id}</h2>
       <div className="toggle-res">
-        Activat:<b> {activat ? "cert" : "fals"}</b>
+        Activat:<b> {activat.value.toString()}</b>
       </div>
 
       <button
         onClick={() => {
-          dispatch(toggleActive());
+          dispatch(toggleActive(id));
         }}
       >
         Togglejar
       </button>
       <button
         onClick={() => {
-          dispatch(off());
+          dispatch(off(id));
         }}
       >
         Off
       </button>
       <button
         onClick={() => {
-          dispatch(on());
+          dispatch(on(id));
         }}
       >
         On

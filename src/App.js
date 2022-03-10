@@ -1,8 +1,9 @@
 import { Provider } from "react-redux";
 import { store } from "./store";
 import { ListCounters } from "./counters";
-import { ToggleRedux } from "./toggle/ToggleRedux";
 import { AllReduxJson } from "./allJsonRedux/AllReduxJson";
+
+import { ListToggles } from "./toggles/ListToggles";
 import "./App.css";
 
 export default function App() {
@@ -13,7 +14,7 @@ export default function App() {
         <Provider store={store}>
           <div className="all-states">
             <ListCounters />
-            <ToggleRedux />
+            <ListToggles />
           </div>
           <AllReduxJson />
         </Provider>

@@ -5,14 +5,20 @@
 }
 .app {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-.counter,
-.toggle {
-  background-color: darkgrey;
-  margin: 5px;
-  padding: 5px;
+.all-states div {
+  margin: 2px;
   text-align: center;
+}
+.counter {
+  background-color: blueviolet;
+}
+.toggle.on {
+  background-color: green;
+}
+.toggle.off {
+  background-color: red;
 }
 h2 {
   margin: 0;
@@ -21,12 +27,23 @@ h1 {
   text-align: center;
 }
 .count-num {
-  font-size: 3em;
-  padding: 0.05em;
+  font-size: 2em;
 }
 .code {
   background-color: darkgrey;
+  margin: 3px;
 }
 .toggle-res {
   padding: 0.5em;
+}
+pre {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  margin: 0.2em;
+}
+button {
+  height: 3em;
+  padding: 1em;
 }
